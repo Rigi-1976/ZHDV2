@@ -1,0 +1,35 @@
+name: Run V2RayAggregator
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours, change as needed
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install speedtest-cli
+
+      - name: Run aggregator with custom subscription
+        run: |
+          python3 aggregator.py \
+            --custom_sub https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/protocols/vless \
+            --only-vless
+
+      - name: Push results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update filtered VLESS nodes"
+          file_pattern: "results/*"
