@@ -23,10 +23,7 @@
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 18.163.100.58, port: 39024, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.163.193.0, port: 15775, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
   - {name: 🇭🇰 香港|@ripaojiedian 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: DE_1|2.3MB/s, server: 172.67.78.22, port: 443, type: trojan, password: 82dd5d38-1a65-42b9-835e-497b5b51eb84, sni: kamonka.eu.org, skip-cert-verify: false}
-  - {name: LU_1|2.4MB/s, server: relaxed-gull.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: relaxed-gull.rooster465.autos, skip-cert-verify: false}
-  - {name: US_2|2.5MB/s, server: 98.93.33.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_3|3.5MB/s, server: 54.163.196.142, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: JP_2|5.7MB/s, server: 13.231.179.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: HK_speednode_0007, server: 16.162.22.218, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
   - {name: HK_speednode_0008, server: 16.162.22.218, port: 9149, type: trojan, password: BxceQaOe, skip-cert-verify: false}
   - {name: HK_speednode_0009, server: 16.162.22.218, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false}
