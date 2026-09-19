@@ -23,10 +23,7 @@
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 100.42.228.109, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
   - {name: 🇨🇳 台湾|@ripaojiedian, server: 36.33.35.105, port: 30001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
   - {name: 🇭🇰 香港|@ripaojiedian 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: US_1|1.5MB/s, server: 3.141.200.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_2|1.4MB/s, server: 43.173.90.202, port: 443, type: trojan, password: sg-trojan-2026, sni: sg-proxy.local, skip-cert-verify: false}
-  - {name: DE_2|1.1MB/s, server: 130.61.146.82, port: 59924, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 1W4RvEFjyad78wExwpCcWKQ0AqXDGPqCFRxuxsmFLmk=}
-  - {name: DE_3|1.2MB/s, server: 130.61.235.30, port: 59924, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: m/CrE+EuNElAAVP1IrhSyQYq0EUT+XiDckrdlPOdMFA=}
-  - {name: GB_1|1.1MB/s, server: 129.151.65.24, port: 61312, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: YtbZ5p/WBjlRfs2aQ1vr44sGpkdKyx5Xbdd+DKP7ke0=}
-  - {name: GB_2|2.8MB/s, server: 144.24.226.249, port: 61312, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: axZ54YHizH8C2/85gqPV+VCC6r0h+nWWGemeypymi2I=}
-  - {name: DE_5|1.2MB/s, server: 130.61.82.183, port: 59924, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: rsZGSjFXUyi6kX8P6glg15+TdK0zdtKVBjkHYeZdJ58=}
+  - {name: US_16|2.5MB/s, server: 121.46.230.139, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: PL_3|2.9MB/s, server: 188.114.96.19, port: 80, type: vmess, uuid: aed88e79-5762-4d2f-86fa-f438f32a7654, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.}}}
+  - {name: US_18|4.8MB/s, server: 107.174.88.128, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 063aee2ed1124285b5d8a8b049e24cba}
+  - {name: FR_5|4.0MB/s, server: 15.237.252.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
